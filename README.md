@@ -2,7 +2,7 @@
 Este es un curso introductorio a angular. Toda la información y el material brindado en este repositorio es una recopilación de diversas fuentes y conocimientos propios obtenidos en el uso de esta tecnología.
 
 ## Cronograma de clases
-1. Introducción
+**_1. Introducción_**
    - ¿Qué es un framework?
      - Definicion de framework y breve explicación práctica.
    - Framework versus librería
@@ -16,3 +16,5 @@ Este es un curso introductorio a angular. Toda la información y el material bri
    - Typescript
      - Diferenciar entre typescript y javascript. 
      - Beneficios de utilizar este lenguaje.
+   
+   - **Material de [consulta](https://docs.google.com/document/d/18fbQyVxyki3aRt-IE84VhrYO_nNiiOKQiMJ9jM6oX8A/edit?usp=sharing)**
