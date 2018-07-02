@@ -9,7 +9,7 @@ export class test {
         this._completed = true;
     }
 
-    getMessage() {
+    getMessage() : string {
         return this._message;
     }
 
@@ -17,7 +17,7 @@ export class test {
         this._message = message;
     }
 
-    getMinutes() {
+    getMinutes() : number {
         return this._minutes;
     }
 
@@ -25,7 +25,7 @@ export class test {
         this._minutes = minutes;
     }
 
-    isCompleted() {
+    isCompleted() : boolean {
         return this._completed;
     }
 
