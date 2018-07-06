@@ -91,7 +91,7 @@ export class data {
           },
           "hair": "black",
           "eyes": "blue",
-          "powers": []
+          "powers": [""]
         },
         {
           "id": 5,

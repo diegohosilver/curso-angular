@@ -1,7 +1,7 @@
 <h1 *ngIf="showTitle">Listado de heroes</h1>
 <br>
 <ul>
-    <li *ngFor"let hero of heroes">
+    <li *ngFor="let hero of heroes">
         {{hero.name}}
         <br>
         <ng-container *ngIf="hero.powers.lenght > 4">Tiene más de 4 superpoderes</ng-container>
