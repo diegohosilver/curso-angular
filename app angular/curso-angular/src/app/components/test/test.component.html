@@ -1,0 +1,21 @@
+<ul>
+  <li *ngFor="let hero of heroes">
+    {{hero.name}}
+    
+    <strong>
+      <ng-container *ngIf="hero.powers.length > 4; else debil">
+        Es superpoderoso
+      </ng-container>
+      <ng-template #debil>
+        Es debil
+      </ng-template>
+    </strong>
+
+    <p [ngSwitch]="hero.hair">
+      <ng-container *ngSwitchCase="'brown'">Marrón</ng-container>
+      <ng-container *ngSwitchCase="'blonde'">Rubio</ng-container>
+      <ng-container *ngSwitchCase="'black'">Negro</ng-container>
+      <ng-container *ngSwitchDefault>Es pelado</ng-container>
+    </p>
+  </li>
+</ul>
