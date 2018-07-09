@@ -2,7 +2,7 @@
 Este es un curso introductorio a angular. Toda la información y el material brindado en este repositorio es una recopilación de diversas fuentes y conocimientos propios obtenidos en el uso de esta tecnología.
 
 ## Cronograma de clases
-**_2. Backend_**
+**_3. Backend_**
    - Implementación de backend
      - Mostrar la versatilidad de angular para interactuar con cualquier tipo de backend.
      - Ejemplo con nodejs
