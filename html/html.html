@@ -1,19 +1,21 @@
-<h1 *ngIf="showTitle">Listado de heroes</h1>
-<br>
 <ul>
     <li *ngFor="let hero of heroes">
-        {{hero.name}}
-        <br>
-        <ng-container *ngIf="hero.powers.lenght > 4">Tiene más de 4 superpoderes</ng-container>
-        <br>
-        <p>
-            Pelo
-            <ng-container [ngSwitch]="hero.hair">
-                <ng-template *ngSwitchCase="brown">Marrón</ng-template>
-                <ng-template *ngSwitchCase="blond">Rubio</ng-template>
-                <ng-template *ngSwitchCase="black">Negro</ng-template>
-                <ng-template *ngSwitchDefault>Calvo</ng-template>
-            </ng-container>
-        </p>
+      {{hero.name}}
+      
+      <strong>
+        <ng-container *ngIf="hero.powers.length > 4; else debil">
+          Es superpoderoso
+        </ng-container>
+        <ng-template #debil>
+          Es debil
+        </ng-template>
+      </strong>
+  
+      <p [ngSwitch]="hero.hair">
+        <ng-container *ngSwitchCase="'brown'">Marrón</ng-container>
+        <ng-container *ngSwitchCase="'blonde'">Rubio</ng-container>
+        <ng-container *ngSwitchCase="'black'">Negro</ng-container>
+        <ng-container *ngSwitchDefault>Es pelado</ng-container>
+      </p>
     </li>
-</ul>
+  </ul>
