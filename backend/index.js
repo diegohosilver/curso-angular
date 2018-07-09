@@ -48,7 +48,7 @@ app.get("/students", (req, res) => {
 /**
  * Add student
  */
-app.put("/students", (req, res) => {
+app.put("/student", (req, res) => {
     var nombre = req.body.nombre;
     var edad = req.body.edad;
 
