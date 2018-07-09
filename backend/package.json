@@ -4,7 +4,7 @@
   "description": "Backend para angular",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,12 @@
   "author": "Diego Silvera",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
   }
 }
