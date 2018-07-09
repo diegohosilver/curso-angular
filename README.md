@@ -2,20 +2,21 @@
 Este es un curso introductorio a angular. Toda la información y el material brindado en este repositorio es una recopilación de diversas fuentes y conocimientos propios obtenidos en el uso de esta tecnología.
 
 ## Cronograma de clases
-**_2. Elementales_**
-   - Uso de cmd/bash
-     - Comandos básicos para la navegación entre directorios.
-     - Creación de directorios y archivos.
-   - npm
-     - Uso del administrador de paquetes
-   - Angular cli
-     - Uso de la consola de angular
-     - Comandos básicos 
-   - Crear un componente
-     - Crear un componente a partir de angular cli
-     - Explicación de las diferentes partes de un componente
-     - Interacción entre vista y código
-   - Directivas
-     - Uso de directivas ngIf, ngFor, ngSwitch, (), [] y {{}}
+**_2. Backend_**
+   - Implementación de backend
+     - Mostrar la versatilidad de angular para interactuar con cualquier tipo de backend.
+     - Ejemplo con nodejs
+   - Promise y Observable
+     - Describir el uso de promesas y observables.
+     - Diferencias entre promesas y observables.
+   - Crear un servicio
+     - Crear un servicio a partir de angular cli
+   - Consumir un servicio
+     - Describir el uso de un servicio creado, implementando promesas y observables.
+   - Envío de datos a backend
+     - Enviar datos a nuestro backend utilizando un servicio creado mediante Http.
+   - Confirmación de datos
+     - Verificar recepción desde backend
+     - Validación de errores
    
    - **Material de [consulta](https://docs.google.com/document/d/1UpXH2Oo8szTOZ6zl2wSQUt9jdRpJJt6c59bm7796dPo/edit?usp=sharing)**
