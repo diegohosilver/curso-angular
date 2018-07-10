@@ -19,4 +19,4 @@ Este es un curso introductorio a angular. Toda la información y el material bri
      - Verificar recepción desde backend
      - Validación de errores
    
-   - **Material de [consulta](https://docs.google.com/document/d/1UpXH2Oo8szTOZ6zl2wSQUt9jdRpJJt6c59bm7796dPo/edit?usp=sharing)**
+   - **Material de [consulta](https://docs.google.com/document/d/1FUF064_YnqOV1R_MIzYjGDsaX-nV0oGFKZ7mmUSTHPE/edit?usp=sharing)**
