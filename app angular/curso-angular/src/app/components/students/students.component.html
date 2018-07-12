@@ -1,0 +1,14 @@
+<h4>Agregar estudiante</h4>
+<input type="text" [(ngModel)]="name" />
+<input type="text" [(ngModel)]="age" />
+<button (click)="newStudent()">Agregar estudiante</button>
+<br>
+
+<h4>Listado de estudiantes</h4>
+<ul>
+  <li *ngFor="let student of students">
+    <button (click)="deleteStudent(student.id)">Borrar</button>
+    <p>Nombre: {{student.nombre}}</p>
+    <p>Edad: {{student.edad}}</p>
+  </li>
+</ul>

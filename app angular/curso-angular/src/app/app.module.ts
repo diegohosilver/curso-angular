@@ -11,10 +11,12 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './components/test/test.component';
 import { SendMessageComponent } from './components/send-message/send-message.component';
 import { ReceiveMessageComponent } from './components/receive-message/receive-message.component';
+import { StudentsComponent } from './components/students/students.component';
 
 const ROUTES: Routes = [
   { path: 'test', component: TestComponent },
   { path: 'send', component: SendMessageComponent },
+  { path: 'students', component: StudentsComponent },
   { path: '', redirectTo: '/test', pathMatch: 'full' }
 ]
 
@@ -23,7 +25,8 @@ const ROUTES: Routes = [
     AppComponent,
     TestComponent,
     SendMessageComponent,
-    ReceiveMessageComponent
+    ReceiveMessageComponent,
+    StudentsComponent
   ],
   imports: [
     FormsModule,

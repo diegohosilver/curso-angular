@@ -21,7 +21,7 @@ export class CommunicationService {
         resolve(res.json());
       })
       .catch(err => {
-        reject(err);
+        reject(err.json());
       })
     });
   }
@@ -37,7 +37,7 @@ export class CommunicationService {
         resolve(res.json());
       })
       .catch(err => {
-        reject(err);
+        reject(err.json());
       })
     });
   }
@@ -52,7 +52,7 @@ export class CommunicationService {
         resolve(res.json());
       })
       .catch(err => {
-        reject(err);
+        reject(err.json());
       })
     });
   }
