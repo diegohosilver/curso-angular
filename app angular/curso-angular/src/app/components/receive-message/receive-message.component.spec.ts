@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { FormsModule } from '@angular/forms';
 
 import { ReceiveMessageComponent } from './receive-message.component';
 
@@ -8,7 +9,8 @@ describe('ReceiveMessageComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ReceiveMessageComponent ]
+      declarations: [ ReceiveMessageComponent ],
+      imports: [ FormsModule ]
     })
     .compileComponents();
   }));
