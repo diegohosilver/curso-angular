@@ -54,11 +54,11 @@ app.put("/student", (req, res) => {
 
     //Check if all data is present
     if (!nombre || !edad) {
-        res.status(400).send("Complete todos los datos");
+        res.status(400).send({msg: "Complete todos los datos"});
     }
     else {
         students.push({id: students.length + 1, nombre: nombre, edad: edad});
-        res.status(200).send("Estudiante agregado a la lista");
+        res.status(200).send({msg: 'Estudiante agregado a la lista'});
     }
 });
 
@@ -71,13 +71,13 @@ app.delete("/student/:id", (req, res) => {
 
     //Check if student with given id exists
     if (!student) {
-        res.status(400).send("Estudiante inexistente");
+        res.status(400).send({msg: "Estudiante inexistente"});
     }
     else {
         var index = students.indexOf(student[0]);
         students.splice(index, 1);
 
-        res.status(200).send("Estudiante eliminado con exito");
+        res.status(200).send({msg: "Estudiante eliminado con exito"});
     }
 })
 
