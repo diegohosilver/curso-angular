@@ -2,21 +2,14 @@
 Este es un curso introductorio a angular. Toda la información y el material brindado en este repositorio es una recopilación de diversas fuentes y conocimientos propios obtenidos en el uso de esta tecnología.
 
 ## Cronograma de clases
-**_3. Backend_**
-   - Implementación de backend
-     - Mostrar la versatilidad de angular para interactuar con cualquier tipo de backend.
-     - Ejemplo con nodejs
-   - Promise y Observable
-     - Describir el uso de promesas y observables.
-     - Diferencias entre promesas y observables.
-   - Crear un servicio
-     - Crear un servicio a partir de angular cli
-   - Consumir un servicio
-     - Describir el uso de un servicio creado, implementando promesas y observables.
-   - Envío de datos a backend
-     - Enviar datos a nuestro backend utilizando un servicio creado mediante Http.
-   - Confirmación de datos
-     - Verificar recepción desde backend
-     - Validación de errores
-   
-   - **Material de [consulta](https://docs.google.com/document/d/1FUF064_YnqOV1R_MIzYjGDsaX-nV0oGFKZ7mmUSTHPE/edit?usp=sharing)**
+**_4. Compilacion y debug_**
+   - Unit test
+     - Crear una prueba unitaria sobre un componente y verificar que la prueba sea exitosa.
+   - JIT y AOT
+     - Explicación de ambos tipos de compilación.
+   - Hash a nombre de archivos
+     - Como forzar al browser que vuelva a cargar los archivos de la aplicación
+   - Deploy
+     - Explicación de como generar un deploy para producción
+     
+   - **Material de [consulta](https://docs.google.com/document/d/19SrbrOUkRac3TZTdsxhFc3Pm1ySMCq0gibV8RGUV1JM/edit?usp=sharing)**
